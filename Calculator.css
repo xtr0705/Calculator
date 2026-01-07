@@ -1,0 +1,33 @@
+body{
+  background-color: black;
+  font-family: monospace;
+}
+
+button{
+  background-color: grey;
+  border-radius: 20px;
+  height: 40px;
+  width: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.zero{
+  width: 180px;
+  background-color: plum;
+}
+
+.zero:hover{
+  background-color: rgb(209, 84, 209);
+  transition: 0.2s ease-in-out;
+}
+
+.output{
+  background-color: grey;
+  height: 40px;
+  width: 180px;
+}
+
+.layout{
+  padding-left: 200px;
+}
