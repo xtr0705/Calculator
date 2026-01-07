@@ -1,0 +1,59 @@
+body {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+button{
+  border-radius: 10px;
+  height: 50px;
+  width: 50px;
+  background-color: rgb(0, 0, 0);
+  color: wheat;
+  border: none;
+  cursor: pointer;
+  font-size: large;
+  font-weight: bold;
+}
+
+button:active{
+  scale: 0.95;
+  background-color: wheat;
+  color: black;
+}
+
+button:hover{
+  box-shadow: 0 0 10px wheat;
+}
+
+
+.equal{
+  color: black;
+  background-color: wheat;
+}
+
+.equal:hover{
+  box-shadow: 0 0 10px black;
+
+}
+
+
+.output {
+  width: 210px;
+  height: 45px;
+  font-weight: bold;
+  font-size: large;
+  background-color: rgb(3, 3, 3);
+  color: wheat;
+  border: none;
+}
+
+.layout{
+  border: solid rgb(95, 92, 92);
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(48, 49, 47);
+}
+

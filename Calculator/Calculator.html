@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="Calculator.css" rel="stylesheet">
+  <title>Calculator</title>
+</head>
+<body>
+
+  <div class="container" >
+    <div class="layout" >
+        <input class="output" type="text" >
+          <p>
+            <button class="clear" >AC</button>
+            <button class="operations" onclick="displayNum('/')" >/</button>
+            <button class="operations" onclick="displayNum('*')" >*</button>
+            <button class="operations" onclick="displayNum('-')" >-</button>
+          </p>
+
+          <p>
+            <button onclick="displayNum(7)" class="nums">7</button>
+            <button onclick="displayNum(8)" class="nums">8</button>
+            <button onclick="displayNum(9)" class="nums">9</button>
+            <button class="operations" onclick="displayNum('+')" >+</button>
+          </p>
+
+          <p>
+            <button onclick="displayNum(4)" class="nums" >4</button>
+            <button onclick="displayNum(5)" class="nums">5</button>
+            <button onclick="displayNum(6)" class="nums">6</button>
+            <button onclick="result()" class="equal" >=</button>
+          </p>
+
+          <p>
+            <button onclick="displayNum(1)" class="nums">1</button>
+            <button onclick="displayNum(2)" class="nums">2</button>
+            <button onclick="displayNum(3)" class="nums">3</button>
+            <button onclick="displayNum(0)" class="zero">0</button>
+          </p>
+        </div>
+      </div> 
+  </div>
+
+
+  <script src="Calculator.js" ></script>
+</body>
+</html>
